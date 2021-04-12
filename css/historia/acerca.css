@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.his-part-1>h2 {
+    font-family: 'Spartan';
+    font-size: 35px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #288fb4;
+}
+.his-part-3 >h2 {
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+p {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 2em;
+}
+
+.contenedor-all {
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 5%;
+}

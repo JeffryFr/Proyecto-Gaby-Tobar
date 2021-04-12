@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'segoe UI', sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #288fb4;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-weight: 100;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card1, .container .card2, .container .card3, .container .card4, .container .card5{
+    width: 330px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    padding-bottom: 1%;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card1:hover{
+    transform: translateY(-15px);
+    -webkit-box-shadow: 0px 0px 56px 14px rgba(134,219,235,1);
+    -moz-box-shadow: 0px 0px 56px 14px rgba(134,219,235,1);
+    box-shadow: 0px 0px 56px 14px rgba(134,219,235,1);
+}
+
+.container .card2:hover{
+    transform: translateY(-15px);
+    -webkit-box-shadow: 0px 0px 56px 14px rgba(170,137,245,1);
+    -moz-box-shadow: 0px 0px 56px 14px rgba(170,137,245,1);
+    box-shadow: 0px 0px 56px 14px rgba(170,137,245,1);
+}
+
+.container .card3:hover{
+    transform: translateY(-15px);
+    -webkit-box-shadow: 0px 0px 56px 14px rgba(219,133,142,1);
+    -moz-box-shadow: 0px 0px 56px 14px rgba(219,133,142,1);
+    box-shadow: 0px 0px 56px 14px rgba(219,133,142,1);
+}
+
+.container .card4:hover{
+    transform: translateY(-15px);
+    -webkit-box-shadow: 0px 0px 56px 14px rgba(242,199,136,1);
+    -moz-box-shadow: 0px 0px 56px 14px rgba(242,199,136,1);
+    box-shadow: 0px 0px 56px 14px rgba(242,199,136,1);
+}
+
+.container .card5:hover{
+    transform: translateY(-15px);
+    -webkit-box-shadow: 0px 0px 56px 14px rgba(219,232,130,1);
+    -moz-box-shadow: 0px 0px 56px 14px rgba(219,232,130,1);
+    box-shadow: 0px 0px 56px 14px rgba(219,232,130,1);
+}
+
+.container #card img{
+    width: 330px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.container #card h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container #card h4{
+    color: #6b4e49;
+    font-weight: 600;
+}
+
+.container #card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container #card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

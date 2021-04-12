@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
+
+footer{
+    font-family: 'Rubik';
+    padding-left: 1%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+   margin-bottom: 20px;
+}
+
+footer.especial{
+    font-family: 'Rubik';
+    position: absolute;
+    padding-left: 1%;
+    margin-top: 96%;
+    padding-top: 0;
+    padding-bottom: 2%;
+    margin-bottom: 20px;
+}
+
+footer .col-1, .col-2, .col-3{
+    display: inline-block;
+    padding: 250px 120px;
+    padding-top: 10px;
+}
+footer h3{
+    font-family: 'Spartan';
+    font-weight: bold;
+    color: #288fb4;
+}
+.col-1{
+    border-right: 1px solid #9D7E79;
+}
+.col-2{
+    border-right: 1px solid #9D7E79 ;
+}
+footer .col-1 p{
+    color: black;
+    position: absolute;
+    margin-right: 68%;
+    margin-left: -4%;
+    margin-top: 2%;
+    text-align: justify;
+}
+.col-2 a {
+    margin-top: 2%;
+    margin-left: -6%;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    display: inline-block;
+}
+#ins{
+    padding-top: 40px;
+}
+#twi{
+    padding-top: 80px;
+}
+#spo{
+    padding-top: 120px;
+}
+#you{
+    padding-top: 160px;
+}
+.fab {
+    color: #288fb4;
+    height: 50px;
+    width: 50px;
+    font-size: 22px;
+}
+#nc{
+    color: #288fb4;
+    height: 50px;
+    width: 50px;
+    font-size: 22px;
+}
+.col-3 a {
+    margin-top: 2%;
+    margin-left: -6%;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    display: inline-block;
+}
+#celu{
+    padding-top: 40px;
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+    scroll-behavior: smooth;
+}
+#logo{
+    position: absolute;
+    height: 200px;
+    top: 200px;
+    margin-top: -17%;
+    margin-left: 5%;
+}
+/* header{
+    max-width: 90%;
+    min-height: 30px;
+    margin: 0 auto 0px;
+    padding: 0;
+    margin-top: 3%;
+    margin-left: 60%;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    background-color: #f0d8b4;
+}
+header li, a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 6px 6px;
+    cursor: pointer;
+
+} */
+.head a{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 45%;
+    color: #9D7E79;
+    font-weight: bold;
+    text-decoration:none;
+    padding: 10px;
+    border: 1px solid #9D7E79;
+    font-size: 18px;
+}
+.head a:hover{
+    color: white;
+    background-color: #9D7E79;
+    transition: 0.5s;
+}
+.head h1{
+    position: absolute;
+    color: #288fb4;
+    margin-top: 10%;
+    margin-left: 45%;
+    font-family: 'Spartan';
+    font-weight: 900;
+}
+.head p{
+    position: absolute;
+    font-size: 17px;
+    margin-top: 14%;
+    margin-left: 45%;
+    margin-right: 15%;
+}
+.head img{
+    position: absolute;
+    height: 450px;
+    width: 470px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#txtForm{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 7%;
+    color: #9D7E79;
+    font-size: 30px;
+    font-family: 'Spartan';
+    font-weight: 900;
+}
+
+span{
+    color: #288fb4;
+    font-family: 'Spartan';
+    font-weight: 900;
+}
+.form{
+    margin-left: -20%;
+    
+}
+form input, textarea {
+  border: none;
+  border-bottom: solid #9D7E79 1px;
+  margin-left: 28%;
+  padding: 10px;
+  outline:none;
+    
+}
+form{
+    margin-left: -1%;
+}
+#name{
+    position: absolute;
+    margin-top: 60%;
+    width: 295px;
+}
+#cel{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 55%;
+    width: 295px;
+}
+#email{
+    position: absolute;
+    margin-top: 65%;
+    width: 295px;
+}
+#asunto{
+    position: absolute;
+    margin-top: 65%;
+    margin-left: 55%;
+    width: 295px;
+}
+#msg{
+    position: absolute;
+    margin-top: 70%;
+    margin-bottom: 5%;
+    width: 660px;
+    height: 130px;
+
+}
+#btn{
+    position: absolute;
+    background-color: #288fb4;
+    color: white;
+    margin-top: 84%;
+    margin-bottom: 3%;
+   cursor: pointer;
+}
