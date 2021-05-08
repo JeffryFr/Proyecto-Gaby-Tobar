@@ -7,9 +7,9 @@
 /* Navbar */
 
 .container{
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
     margin: auto;
+    max-width: 1100px;
 }
 
 header{
@@ -42,44 +42,25 @@ header{
     }
 }
 
-header .header_nav{
-    width: 100%;
-}
-
 header .header_nav img{
     height: 50px;
     width: auto;
-    margin-top: 1%;
-    margin-left: 0;
 }
 
-header .header_nav nav ul{
-    list-style: none;
-}
-
-header .header_nav nav ul li{
-    display: inline-block;
-}
-
-header .header_nav nav ul li a{
-    text-decoration: none;
-    display: block;
-    color: white;
-    margin-right: 10px;
-    padding: 20px 10px;
-    transition: .5s;
-}
-
-header .header_nav nav ul li a:hover{
-    text-decoration: underline;
-}
-
-header .header_nav .container{
+/* header .header_nav .container{
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+} */
+
+.menubtn{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    font-size: 25px;
+    display: none;
 }
 
 /* Banner */
@@ -241,6 +222,7 @@ article#contenedor2 #Mini_Gallery .image_list{
     width: 48px;
     height: 48px;
     text-align: center;
+    padding-top: 12px;
     border: 0;
     cursor: pointer;
 }

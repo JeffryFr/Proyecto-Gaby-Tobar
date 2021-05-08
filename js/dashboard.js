@@ -1,3 +1,13 @@
+// var nav = document.querySelector('nav');
+
+// window.addEventListener('scroll', function(){
+//     if(window.pageYOffset > 200){
+//         nav.classList.add('bg-dark', 'shadow');
+//     }else{
+//         nav.classList.remove('bg-dark', 'shadow');
+//     }
+// });
+
 const buttonAnterior = document.getElementById("button_anterior");
 const buttonSiguiente = document.getElementById("button_siguiente");
 const carousel = document.getElementById("carousel");

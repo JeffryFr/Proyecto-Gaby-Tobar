@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
 
 footer{
@@ -85,4 +85,44 @@ footer .col-1 p{
 }
 #celu{
     padding-top: 40px;
+} */
+
+footer{
+    color: black;
+}
+
+footer h6{
+    font-size: 18px;
+}
+
+footer p, footer a{
+    font-size: 17px;
+}
+
+.hr-1{
+    width: 190px;
+}
+
+.hr-2{
+    width: 110px;
+}
+
+.hr-3{
+    width: 130px;
+}
+
+footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.ultima{
+    text-align: left;
+}
+
+@media only screen and (max-width:773px){
+    footer ul li{
+        text-align: center;
+    }
+
 }
