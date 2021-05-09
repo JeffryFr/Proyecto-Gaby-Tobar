@@ -1,4 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/* 
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
 
 footer{
@@ -88,31 +90,52 @@ footer .col-1 p{
 } */
 
 footer{
+    font-family: 'Rubik';
     color: black;
+    background-color: #64a6be;
 }
 
 footer h6{
     font-size: 18px;
+    color: white;
+    font-weight: 800;
 }
 
-footer p, footer a{
+footer .ultima{
+    margin-left: 80px;
+}
+
+footer p, footer li{
     font-size: 17px;
+    color: white;
+}
+
+footer i{
+    color: white;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20px;
 }
 
 .hr-1{
     width: 190px;
+    background: #3a2a28;
+    height: 3px;
 }
 
 .hr-2{
     width: 110px;
+    background: #3a2a28;
+    height: 3px;
 }
 
 .hr-3{
     width: 130px;
+    background: #3a2a28;
 }
 
 footer ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -120,9 +143,16 @@ footer ul li a{
     text-align: left;
 }
 
+.copy{
+    color: white;
+    background-color: #3190b3;
+}
+
 @media only screen and (max-width:773px){
     footer ul li{
         text-align: center;
     }
-
+    footer .ultima{
+        margin-left: 0;
+    }
 }

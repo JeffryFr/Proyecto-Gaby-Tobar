@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 
 *{
@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: 'segoe UI', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .title{
@@ -16,9 +16,8 @@ body{
     color: #288fb4;
     margin-top: 2%;
     margin-bottom: 3%;
-    font-weight: 100;
+    font-weight: 800;
 }
-
 
 .cartas{
     width: 100%;

@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Rubik';
 }
 
 /* Navbar */
+
+iframe{
+    display: none;
+}
 
 .container{
     width: 100%;
@@ -65,22 +72,39 @@ header .header_nav img{
 
 /* Banner */
 
-.banner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+.bg-a{
+    background-color: #9D7E79;
 }
 
 header .banner .page h1{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    min-height: 75vh;
     color: white;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 800;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header .banner img{
     width: 35vw;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 991px){
+    header .banner .page h1{
+        margin-left: 0;
+        justify-content: center;
+        font-size: 80px;
+    }
+
+    header .banner img{
+        display: none;
+    }
 }
 
 /* Secciones */
@@ -103,14 +127,14 @@ article .container2{
 
 /* Seccion 1 */
 
-article#contenedor1 #general_information{
+article#contenedor1 .general_information{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
 
-article#contenedor1 #general_information #imagen img{
+article#contenedor1 .general_information .imagen img{
     width: 50%;
     margin-left: 15%;
     -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
@@ -118,25 +142,26 @@ article#contenedor1 #general_information #imagen img{
     box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
 }
 
-article#contenedor1 #general_information #general_info{
+article#contenedor1 .general_information .general_info{
     width: 70%;
     margin-right: 10%;
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
 }
 
-article#contenedor1 #general_information #general_info h1{
+article#contenedor1 .general_information .general_info h1{
     font-size: 2.5em;
     color: #7D5D4E;
     margin-bottom: 3%;
+    font-weight: 800;
 }
 
-article#contenedor1 #general_information #general_info p{
+article#contenedor1 .general_information .general_info p{
     font-size: 1.3em;
     text-align: justify;
     color: #262626;
 }
 
-article#contenedor1 #general_information #general_info a{
+article#contenedor1 .general_information .general_info a{
     color: #7D5D4E;
     font-size: 1.2em;
     text-decoration: none;
@@ -145,32 +170,44 @@ article#contenedor1 #general_information #general_info a{
     border: 3px solid #7D5D4E;
     padding: 10px;
     transition: .5s;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Rubik', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 2%;
 }
 
-article#contenedor1 #general_information #general_info a:hover{
+article#contenedor1 .general_information .general_info a:hover{
     background-color: #7D5D4E;
     color: white;
 }
 
+@media only screen and (max-width:767px){
+    article#contenedor1 .general_information .imagen img{
+        width: 25%;
+        margin-left: 0;
+    }
+    
+    article#contenedor1 .general_information .general_info{
+        margin-right: 0;
+        margin: auto;
+    }
+}
+
 /* Seccion 2 */
 
-article#contenedor2 #Mini_Gallery{
+article#contenedor2 .Mini_Gallery{
     align-items: center;
     text-align: center;
     height: 100%;
 }
 
-article#contenedor2 #Mini_Gallery h1{
+article#contenedor2 .Mini_Gallery h1{
     font-size: 2.8em;
-    font-family: 'segoe UI', Arial, Helvetica, sans-serif;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
     color: white;
-    margin: 6%;
     margin-top: 2%;
+    font-weight: 800;
 }
 
-article#contenedor2 #Mini_Gallery .image_list{
+article#contenedor2 .Mini_Gallery .image_list{
     position: relative;
     display: flex;
     align-items: center;
@@ -243,7 +280,7 @@ article#contenedor2 #Mini_Gallery .image_list{
     right: 0px;
 }
 
-article#contenedor2 #Mini_Gallery a{
+article#contenedor2 .Mini_Gallery a{
     color: white;
     font-size: 1.2em;
     text-decoration: none;
@@ -252,11 +289,11 @@ article#contenedor2 #Mini_Gallery a{
     border: 3px solid white;
     padding: 10px;
     transition: .5s;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 4%;
+    font-family: 'Rubik', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
 }
 
-article#contenedor2 #Mini_Gallery a:hover{
+article#contenedor2 .Mini_Gallery a:hover{
     background-color: white;
     color: black;
 }

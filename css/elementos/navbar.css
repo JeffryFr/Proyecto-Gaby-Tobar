@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 header{
     background-color: #9D7E79;
     width: 100%;
@@ -14,5 +16,5 @@ header img{
 }
 
 header{
-    font-family: 'segoe UI';
+    font-family: 'rubik';
 }
